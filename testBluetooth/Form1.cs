@@ -23,7 +23,7 @@ namespace testBluetooth
             {
                 if (!serialPort1.IsOpen)
                     serialPort1.Open();
-
+                  
             }
             catch (Exception e) {
                 MessageBox.Show("ошибка компорта");
